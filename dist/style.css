@@ -1,8 +1,28 @@
 * {
-    color: antiquewhite;
-    box-sizing: border-box;
+  color: antiquewhite;
+  box-sizing: border-box;
 }
 
-html, body {
-    background-color: rgb(22,22,22);
+html,
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+#content {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+}
+
+.squares {
+  background-color: antiquewhite;
+}
+.squares.black {
+  background-color: black;
 }
