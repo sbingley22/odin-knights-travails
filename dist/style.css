@@ -26,3 +26,13 @@ body {
 .squares.black {
   background-color: black;
 }
+
+.squares.red {
+  background-color: red;
+}
+.squares.yellow {
+  background-color: yellow;
+}
+.squares.green {
+  background-color: green;
+}
